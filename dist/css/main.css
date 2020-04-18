@@ -173,6 +173,9 @@ main {
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
 
+.job-button {
+  padding: 5px 3px; }
+
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -240,9 +243,10 @@ main {
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
-    text-align: center;
-    line-height: 1;
-    margin-bottom: 1rem; }
+    text-align: center; }
+    main .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
